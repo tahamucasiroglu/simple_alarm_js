@@ -1,0 +1,56 @@
+#genel{
+    display: inline-block;
+    border:5px solid olive;
+    width: 141px;
+    background-color: wheat;
+}
+#taha{
+    width: 100px;
+    background-color: black;
+    color:greenyellow;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+#taha2{
+    width: 100px;
+    background-color: gray;
+    color: papayawhip;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 10px;
+    margin:10px;
+}
+button{
+    background-color: rgb(51, 51, 51);
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    border:none;
+}
+button:active{
+    background-color: green;
+    color: azure;
+    text-align: center;
+}
+button:hover{
+    background-color: yellow;
+    color:tomato;
+    
+}
+#taha3{
+    width: 100px;
+    background-color: tomato;
+    color: sienna;
+    text-align: center;
+    padding:10px;
+    border:3px solid red;
+    margin: 10px;
+    display: none;
+}
+input::placeholder{
+    color: yellowgreen;
+    text-align: center;
+}
